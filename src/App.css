@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  
+}
+
+.Container {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 75px;
+  display: flex;
+  gap: 75px;
+  padding: 45px;
+  color: chocolate;
+  border: solid chocolate 2px;
+  border-radius: 10px;
+  
+}
+
+.Button {
+  padding-top: 60px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.Start {
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  background-color: greenyellow;
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
+}
+
+.Stop {
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
+}
+
+.Pause{
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  background-color: chocolate;
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
+}
