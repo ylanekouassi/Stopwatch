@@ -3,8 +3,15 @@ import React from 'react'
 export default function Stopwatch() {
   return (
     <div>
-        <span>minutes</span>
-        <span>seconds</span>
+        <div>
+            <span>minutes</span>
+            <span>seconds</span>
+        </div>
+        <div>
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
     </div>
   )
 }
