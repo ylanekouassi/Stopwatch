@@ -2,6 +2,9 @@ import React from 'react'
 
 export default function Stopwatch() {
   return (
-    <div>Stopwatch</div>
+    <div>
+        <span>minutes</span>
+        <span>seconds</span>
+    </div>
   )
 }
