@@ -5,6 +5,10 @@ export default function Stopwatch() {
 
     const [time, setTime] = useState({seconds: 0, minutes: 0});
 
+    useEffect(()=>{    
+        handleTime();
+        return ()=> clearInterval(id.current);
+    }, [ ])
     
     let id = useRef();
 
@@ -23,8 +27,6 @@ export default function Stopwatch() {
         }, 1000);    
     }
 
-
-
   return (
 
   <div>
@@ -40,7 +42,7 @@ export default function Stopwatch() {
         </div>
         <div className='Buttons'>
                 <button className='Start' onClick={()=>handleTime(id.current)}>Start</button>
-                <button className='Pause'>Pause</button>
+                <button className='Pause' onClick={()=>clearInterval(id.current)}>Pause</button>
                 <button className='Stop'>Stop</button>
         </div>
     </div>  
