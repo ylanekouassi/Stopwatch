@@ -32,3 +32,30 @@
   gap: 60px;
   padding-top: 60px;
 }  
+
+.Start {
+  cursor: pointer;
+  background-color: greenyellow;
+  color: black;
+  font-size: 40px;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.Pause {
+  cursor: pointer;
+  background-color: chocolate;
+  color: black;
+  font-size: 40px;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.Stop {
+  cursor: pointer;
+  background-color: red;
+  color: black;
+  font-size: 40px;
+  padding: 1%;
+  border-radius: 10px;
+}

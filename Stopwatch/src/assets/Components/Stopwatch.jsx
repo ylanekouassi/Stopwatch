@@ -14,9 +14,9 @@ export default function Stopwatch() {
             </div>
         </div>
         <div className='Buttons'>
-                <button>Start</button>
-                <button>Pause</button>
-                <button>Stop</button>
+                <button className='Start'>Start</button>
+                <button className='Pause'>Pause</button>
+                <button className='Stop'>Stop</button>
         </div>
     </div>  
   )
