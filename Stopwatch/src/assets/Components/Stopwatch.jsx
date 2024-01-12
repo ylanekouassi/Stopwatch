@@ -1,15 +1,22 @@
-import React from 'react'
+import React, {useRef} from 'react'
+import { useState, useEffect } from 'react'
 
 export default function Stopwatch() {
   return (
+
+
+
+
+
+
   <div>
         <div className='Container'>
             <div>
-                <span>00</span><br />
+                <span></span><br />
                 <span>minutes</span>
             </div>     
             <div>  
-                <span>00</span><br /> 
+                <span></span><br /> 
                 <span>seconds</span>
             </div>
         </div>
