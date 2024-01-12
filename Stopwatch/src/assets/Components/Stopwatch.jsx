@@ -43,7 +43,8 @@ export default function Stopwatch() {
         <div className='Buttons'>
                 <button className='Start' onClick={()=>handleTime(id.current)}>Start</button>
                 <button className='Pause' onClick={()=>clearInterval(id.current)}>Pause</button>
-                <button className='Stop'>Stop</button>
+                <button className='Stop' onClick={()=>{clearInterval(id.current)
+    setTime({seconds: 0, minutes: 0})}}>Stop</button>
         </div>
     </div>  
   )
