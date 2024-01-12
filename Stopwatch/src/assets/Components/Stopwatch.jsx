@@ -32,11 +32,17 @@ export default function Stopwatch() {
   <div>
         <div className='Container'>
             <div>
-                <span>{time.minutes}</span><br />
+                <span>{time.minutes.toLocaleString("en-US",{
+                minimumIntegerDigits: 2,
+                useGrouping: false,
+            })}</span><br />
                 <span>minutes</span>
             </div>     
             <div>  
-                <span>{time.seconds}</span><br /> 
+                <span>{time.seconds.toLocaleString("en-US",{
+                minimumIntegerDigits: 2,
+                useGrouping: false,
+            })}</span><br /> 
                 <span>seconds</span>
             </div>
         </div>
