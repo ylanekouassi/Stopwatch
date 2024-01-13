@@ -17,7 +17,7 @@ export default function Stopwatch() {
     
             setTime((previous)=>{
     
-                if (previous.seconds === 60){
+                if (previous.seconds === 59){
                     return {...previous, minutes: previous.minutes+1, seconds: 0}
                 }
     
